@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 1400px;
+  margin: 0 auto;
+  background: #F9F7F3;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .img-logo {
+  background-image: url(./assets/IMAGE.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 104px;
+  height: 40px;
+}
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header nav p {
+  font: 400 16px "Roboto";
+  color: #000000;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  padding: 20px 40px;
+}
+header nav div {
+  font: 400 16px "Roboto";
+  color: #9F4A19;
+  background: #F1EAFB;
+  padding: 20px 40px;
+}
+
+.start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+.start .left-size {
+  width: 430px;
+}
+.start .left-size h1 {
+  font-family: "Roboto";
+  font: 400 70px normal;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.start .left-size p {
+  font: 400 18px "Roboto";
+  color: #000000;
+}
+.start .left-size p:last-child {
+  font: 400 14px "Roboto";
+  color: #808080;
+  width: 262px;
+  text-align: center;
+  margin-top: 15px;
+}
+.start .btn-free {
+  background-color: #F1EAFB;
+  border: 1px solid #000000;
+  color: #9F4A19;
+  padding: 11px 0;
+  width: 262px;
+  text-align: center;
+  margin: 30px 0 12px 0;
+}
+.start .btn-demo {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #9F4A19;
+  padding: 11px 0;
+  width: 262px;
+  text-align: center;
+}
+.start .img {
+  background-image: url(./assets/Frame.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 460px;
+}
+
+.img-phone {
+  background-image: url(./assets/IMAGE\ \(1\).svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 894px;
+  height: 733px;
+  margin: auto;
+  margin: 120px auto;
+}

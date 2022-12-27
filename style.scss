@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+
+$white-color: #ffffff;
+$black-color: #000000;
+$light-blue: #F1EAFB;
+$orange-color: #9F4A19;
+$grey-color: #808080;
+$light-white-color: #F9F7F3;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1400px;
+    margin: 0 auto;
+    background: $light-white-color;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .img-logo {
+        background-image: url(./assets/IMAGE.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 104px;
+        height: 40px;
+    }
+
+    nav {
+        display: flex;
+
+
+        p {
+            font: 400 16px 'Roboto';
+            color: $black-color;
+            border-left: 1px solid $black-color;
+            border-right: 1px solid $black-color;
+            padding: 20px 40px;
+
+        }
+
+        div {
+            font: 400 16px 'Roboto';
+            color: $orange-color;
+            background: $light-blue;
+            padding: 20px 40px;
+        }
+
+    }
+}
+
+.start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+
+    .left-size {
+        width: 430px;
+
+
+        h1 {
+            font-family: 'Roboto';
+            font: 400 70px normal;
+            color: $black-color;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font: 400 18px 'Roboto';
+            color: $black-color;
+    
+
+            &:last-child {
+                font: 400 14px 'Roboto';
+                color: $grey-color;
+                width: 262px;
+                text-align: center;
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .btn-free {
+        background-color: $light-blue;
+        border: 1px solid $black-color;
+        color: $orange-color;
+        padding: 11px 0;
+        width: 262px;
+        text-align: center;
+        margin: 30px 0 12px 0;
+    }
+
+    .btn-demo {
+        background-color: $white-color;
+        border: 1px solid $black-color;
+        color: $orange-color;
+        padding: 11px 0;
+        width: 262px;
+        text-align: center;
+    }
+
+    .img {
+        background-image: url(./assets/Frame.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 500px;
+        height: 460px;
+    }
+}
+
+.img-phone {
+    background-image: url(./assets/IMAGE\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 894px;
+    height: 733px;
+    margin: auto;
+    margin: 120px auto;
+}
